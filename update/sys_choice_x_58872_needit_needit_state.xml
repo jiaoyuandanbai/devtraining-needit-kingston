@@ -5,6 +5,25 @@
             <dependent_value/>
             <element>state</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>open</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-11 07:27:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14a9074edbc56300f278f36f29961911</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-11 07:28:35</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
             <inactive>false</inactive>
             <label>Requested</label>
             <language>en</language>
@@ -43,6 +62,25 @@
             <dependent_value/>
             <element>state</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>work in progress</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-11 07:27:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90a9074edbc56300f278f36f29961913</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-11 07:28:35</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
             <inactive>false</inactive>
             <label>Approved</label>
             <language>en</language>
@@ -57,6 +95,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-01-26 20:14:39</sys_updated_on>
             <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Closed Incompleted</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-11 07:27:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ca9074edbc56300f278f36f29961914</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-11 07:28:35</sys_updated_on>
+            <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -121,13 +178,11 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-26 20:14:39</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>c30ba9e84fdbf2004e584b8d0210c733</sys_id>
+            <sys_id>bdd5cbc6dbc56300f278f36f299619f3</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
             <sys_update_name>sys_choice_x_58872_needit_needit_state</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
